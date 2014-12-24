@@ -1,0 +1,28 @@
+<script src="Youtube.js"></script>
+<style type="text/css">
+	#ytPlayer{
+		width: 600px;
+		height: 400px;
+	}
+	#ytClipWrapper{
+		width: 100%;
+		height: 100%;
+	}
+</style>
+
+<div id="ytPlayer">
+	<div id="ytClipWrapper">
+		<input type="hidden" name="initYtId" value="Gg8mRS-03UA">
+	</div>
+	<div id="thumnails">
+		<img src="http://i.ytimg.com/vi/Gg8mRS-03UA/1.jpg" width="120" height="90" class="ytThumb" data-yt-id="Gg8mRS-03UA">
+		<img src="http://i.ytimg.com/vi/7F17Ln5jvms/sddefault.jpg" width="120" height="90" class="ytThumb" data-yt-id="7F17Ln5jvms">
+		<img src="http://i.ytimg.com/vi/Fo72y1IyLnM/mqdefault.jpg" width="120" height="90" class="ytThumb" data-yt-id="Fo72y1IyLnM">
+	</div>
+</div>
+
+<script type="text/javascript">
+window.onload = function(){
+	Youtube.init();
+};
+</script>
